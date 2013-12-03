@@ -50,8 +50,25 @@ target / context = result
 	
 }
 
+.clear{clear:both;display:block;overflow:hidden;visibility:hidden;width:0;height:0}.clearfix:after{clear:both;content:' ';display:block;font-size:0;line-height:0;visibility:hidden;width:0;height:0}* html .clearfix,*:first-child+html .clearfix{zoom:1}
 
 
+/*global*/
+
+body {
+	background: url("../img/bg.png");
+	font-family: 'Allerta', sans-serif;
+	font-weight: 100;
+	font-size: 1.125em;
+}
+
+nav li {
+	float: left;
+	text-decoration: none;
+	padding: 0;
+	margin: 10px;
+	
+	}
 /* 
 Color Palette
 1st #CBD5BD, light  green
@@ -59,10 +76,7 @@ Color Palette
 3rd #FF849E, accent color pink
 */
 
-body {
-	background: url("../img/bg.png");
-	font-family: 'Allerta', sans-serif;
-}
+
 /*typography*/
 
 /*h1 {
@@ -93,6 +107,7 @@ a {
 img { 
 
 	max-width: 100%;
+	 box-shadow: 0 0 20px #666;
 }
 
 /*typography*/
@@ -114,9 +129,6 @@ h3 {
 	color: #ed6c85;
 }
 
-img {
-   box-shadow: 0 0 20px #666;
-}
 
 .dropcap {
 	font-size: 4.5em; /* 72px ÷ 16px = 4.5em*/
@@ -133,7 +145,7 @@ img {
 
 
 
-/* Helper Classes */
+/* Helper Classes 
 .showgrid {
 	background: url("../img/12_col.gif") !important;
-}
+}*/
