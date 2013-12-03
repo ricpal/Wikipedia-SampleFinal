@@ -63,15 +63,55 @@ body {
 	background: url("../img/bg.png");
 	font-family: 'Allerta', sans-serif;
 }
+/*typography*/
 
-h1, h3 {
+/*h1 {
+	font-size: 1.750em;
+	font-weight: 100;
+	letter-spacing: -1.5px;
 	color: #CBD5BD;
 	text-transform: uppercase;
-	border-bottom: 10px solid black;
+	border-bottom: .5em solid black;
 }
 
+h2 {
+	font-weight: 100;
+	font-size: 1.500em;
+	color: #b4c34f;
+}
 h3 {
+	font-weight: 100;
+	font-size: 1.125em;
+	color: #ed6c85;
 	padding: 0 0 10px 0;
+}*/
+a {
+	color: #ed6c85;
+	text-decoration: none;
+}
+
+img { 
+
+	max-width: 100%;
+}
+
+/*typography*/
+
+h1 {
+	font-size: 1.750em;
+	font-weight: 100;
+	letter-spacing: -1.5px;
+}
+
+h2 {
+	font-weight: 100;
+	font-size: 1.500em;
+	color: #b4c34f;
+}
+h3 {
+	font-weight: 100;
+	font-size: 1.125em;
+	color: #ed6c85;
 }
 
 img {
