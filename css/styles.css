@@ -142,8 +142,28 @@ h3 {
 }
 
 /*Media Queries*/
+
+/* Larger ----------- */
+@media screen and (max-width: 960px) {
+	
+header img{
+	width: 100%;
+}
+article {
+	width: 100%;
+}
+aside img {
+	width: 100%;
+}
+nav ul {
+	margin: 0;
+}
+nav ul li {
+	width: 100%;
+}
+}
 /* Smaller ----------- */
-@media screen and (max-width : 650px) {
+@media screen and (max-width : 480px) {
 
 .grid_1,
 .grid_2,
@@ -158,6 +178,21 @@ h3 {
 .grid_11,
 .grid_12 {
 	width:100%;
+}
+header img{
+	width: 100%;
+}
+article {
+	width: 100%;
+}
+aside img {
+	width: 100%;
+}
+nav ul {
+	margin: 0;
+}
+nav ul li {
+	width: 100%;
 }
 }
 
