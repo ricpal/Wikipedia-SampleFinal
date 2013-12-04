@@ -7,8 +7,7 @@
  Gutter : 20px 
 
 target / context = result
-
- */
+*/
 .grid_1 { width: 6.5%; } /* 65px/1000px = 0.065px */
 .grid_2 { width: 15%; } /* 150px/1000px =  0.15px */
 .grid_3 { width: 23.5%; } /* 235px/1000px = 0.235px */
