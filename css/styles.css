@@ -83,7 +83,6 @@ nav li {
 	text-decoration: none;
 	padding: 0;
 	margin: 10px;
-	
 	}
 
 nav a {
@@ -202,6 +201,7 @@ nav li {
 	float: none;
 	display: block;
 	text-align: center;
+	margin: 15px 0;
 	}
 
 nav ul {
